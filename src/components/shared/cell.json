@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_shared_cells",
+  "info": {
+    "displayName": "cell",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "cell": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

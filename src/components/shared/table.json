@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_shared_tables",
+  "info": {
+    "displayName": "Table",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "default": "table",
+      "enum": [
+        "table"
+      ]
+    },
+    "Title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "TableRow": {
+      "type": "component",
+      "component": "shared.table-row",
+      "repeatable": true
+    },
+    "TableColumns": {
+      "type": "component",
+      "component": "shared.table-columns",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

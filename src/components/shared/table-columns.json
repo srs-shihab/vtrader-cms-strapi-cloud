@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_table_columns",
+  "info": {
+    "displayName": "TableColumns",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "cell": {
+      "type": "string",
+      "unique": false
+    }
+  },
+  "config": {}
+}

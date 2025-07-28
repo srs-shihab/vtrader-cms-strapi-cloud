@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_shared_table_rows",
+  "info": {
+    "displayName": "TableRow",
+    "icon": "dashboard"
+  },
+  "options": {},
+  "attributes": {
+    "cell": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

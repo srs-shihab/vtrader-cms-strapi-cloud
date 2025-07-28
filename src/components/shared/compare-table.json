@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_shared_compare_tables",
+  "info": {
+    "displayName": "Compare Table"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "default": "compare",
+      "enum": [
+        "compare"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "TableRows": {
+      "type": "component",
+      "component": "shared.table-row",
+      "repeatable": true
+    },
+    "TableColumns": {
+      "type": "component",
+      "component": "shared.table-columns",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

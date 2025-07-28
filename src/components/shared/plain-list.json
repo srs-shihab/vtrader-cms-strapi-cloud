@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_plain_lists",
+  "info": {
+    "displayName": "Plain List",
+    "icon": "attachment"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "unOrdered": {
+      "type": "boolean",
+      "default": true
+    },
+    "points": {
+      "type": "component",
+      "component": "shared.list-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
